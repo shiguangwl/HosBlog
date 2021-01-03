@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xxhoz.dao.UserOptionDao">
+    <!--用户的增删改查-->
+    <insert id="addUser" parameterType="HosUser">
+        INSERT INTO
+            hos_users(
+            user_id,
+            user_name,
+            user_password,
+            user_nickname,
+            user_mail,
+            user_registration_time,
+            user_profile_photo)
+            VALUE (
+                   null,
+                   #{userName},
+                   #{userPassword},
+                   #{userNickname},
+                   #{userMail},
+                   #{userRegistrationTime},
+                   #{userProfilePhoto}
+            )
+    </insert>
+    <delete id="deleteUserById">
+        delete from hos_users where user_id=#{userId}
+    </delete>
+    <update id="updataUser" parameterType="HosUser">
+        update hos_users set
+            user_id = #{userId},
+            user_name = #{userName},
+            user_password = #{userPassword},
+            user_nickname = #{userNickname},
+            user_mail = #{userMail},
+            user_registration_time = #{userRegistrationTime},
+            user_profile_photo = #{userProfilePhoto}
+    </update>
+    <select id="queryAllUser" resultType="HosUser">
+        SELECT * FROM hos_users
+    </select>
+</mapper>

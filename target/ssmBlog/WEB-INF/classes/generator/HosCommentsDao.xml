@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generate.HosCommentsDao">
+  <resultMap id="BaseResultMap" type="generate.HosComments">
+    <id column="comment_id" jdbcType="BIGINT" property="commentId" />
+    <result column="comment_user_name" jdbcType="VARCHAR" property="commentUserName" />
+    <result column="comment_email" jdbcType="VARCHAR" property="commentEmail" />
+    <result column="comment_content" jdbcType="VARCHAR" property="commentContent" />
+    <result column="comment_time" jdbcType="TIMESTAMP" property="commentTime" />
+    <result column="comment_like_count" jdbcType="BIGINT" property="commentLikeCount" />
+    <result column="parent_comment_id" jdbcType="BIGINT" property="parentCommentId" />
+    <result column="article_id" jdbcType="BIGINT" property="articleId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    comment_id, comment_user_name, comment_email, comment_content, comment_time, comment_like_count, 
+    parent_comment_id, article_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from hos_comments
+    where comment_id = #{commentId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from hos_comments
+    where comment_id = #{commentId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="comment_id" keyProperty="commentId" parameterType="generate.HosComments" useGeneratedKeys="true">
+    insert into hos_comments (comment_user_name, comment_email, comment_content, 
+      comment_time, comment_like_count, parent_comment_id, 
+      article_id)
+    values (#{commentUserName,jdbcType=VARCHAR}, #{commentEmail,jdbcType=VARCHAR}, #{commentContent,jdbcType=VARCHAR}, 
+      #{commentTime,jdbcType=TIMESTAMP}, #{commentLikeCount,jdbcType=BIGINT}, #{parentCommentId,jdbcType=BIGINT}, 
+      #{articleId,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" keyColumn="comment_id" keyProperty="commentId" parameterType="generate.HosComments" useGeneratedKeys="true">
+    insert into hos_comments
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="commentUserName != null">
+        comment_user_name,
+      </if>
+      <if test="commentEmail != null">
+        comment_email,
+      </if>
+      <if test="commentContent != null">
+        comment_content,
+      </if>
+      <if test="commentTime != null">
+        comment_time,
+      </if>
+      <if test="commentLikeCount != null">
+        comment_like_count,
+      </if>
+      <if test="parentCommentId != null">
+        parent_comment_id,
+      </if>
+      <if test="articleId != null">
+        article_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="commentUserName != null">
+        #{commentUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="commentEmail != null">
+        #{commentEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="commentContent != null">
+        #{commentContent,jdbcType=VARCHAR},
+      </if>
+      <if test="commentTime != null">
+        #{commentTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="commentLikeCount != null">
+        #{commentLikeCount,jdbcType=BIGINT},
+      </if>
+      <if test="parentCommentId != null">
+        #{parentCommentId,jdbcType=BIGINT},
+      </if>
+      <if test="articleId != null">
+        #{articleId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="generate.HosComments">
+    update hos_comments
+    <set>
+      <if test="commentUserName != null">
+        comment_user_name = #{commentUserName,jdbcType=VARCHAR},
+      </if>
+      <if test="commentEmail != null">
+        comment_email = #{commentEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="commentContent != null">
+        comment_content = #{commentContent,jdbcType=VARCHAR},
+      </if>
+      <if test="commentTime != null">
+        comment_time = #{commentTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="commentLikeCount != null">
+        comment_like_count = #{commentLikeCount,jdbcType=BIGINT},
+      </if>
+      <if test="parentCommentId != null">
+        parent_comment_id = #{parentCommentId,jdbcType=BIGINT},
+      </if>
+      <if test="articleId != null">
+        article_id = #{articleId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where comment_id = #{commentId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="generate.HosComments">
+    update hos_comments
+    set comment_user_name = #{commentUserName,jdbcType=VARCHAR},
+      comment_email = #{commentEmail,jdbcType=VARCHAR},
+      comment_content = #{commentContent,jdbcType=VARCHAR},
+      comment_time = #{commentTime,jdbcType=TIMESTAMP},
+      comment_like_count = #{commentLikeCount,jdbcType=BIGINT},
+      parent_comment_id = #{parentCommentId,jdbcType=BIGINT},
+      article_id = #{articleId,jdbcType=BIGINT}
+    where comment_id = #{commentId,jdbcType=BIGINT}
+  </update>
+</mapper>

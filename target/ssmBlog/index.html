@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap 实例 - 响应式的导航栏</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="./editormd/css/editormd.css" />
+</head>
+<body>
+	<header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#example-navbar-collapse">
+					<span class="sr-only">切换导航</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">流逝时光</a>
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+				<ul class="nav navbar-nav left-nav">
+					<li class="active">
+						<div class="panel panel-default nobm">
+							<div class="panel-heading">
+								<a class="panel-title" data-toggle="collapse" data-parent="#panel-0" href="#panel-element-0">网站设置</a>
+							</div>
+							<div id="panel-element-0" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#">网站设置</a></li>
+										<li><a href="#">友情链接</a></li>
+										<li><a href="#">访问日志</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="active">
+						<div class="panel panel-default nobm">
+							<div class="panel-heading">
+								<a class="panel-title" data-toggle="collapse" data-parent="#panel-1" href="#panel-element-1">文章管理</a>
+							</div>
+							<div id="panel-element-1" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#">写文章</a></li>
+										<li><a href="#">文章</a></li>
+										<li><a href="#">标签</a></li>
+										<li><a href="#">分类</a></li>
+										<li><a href="#">评论</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="active">
+						<div class="panel panel-default nobm">
+							<div class="panel-heading">
+								<a class="panel-title" data-toggle="collapse" data-parent="#panel-2" href="#panel-element-2">外观</a>
+							</div>
+							<div id="panel-element-2" class="panel-collapse collapse in">
+								<div class="panel-body">
+									<ul>
+										<li><a href="#">主题模板</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+	<section>
+		<div id="section" class="container-fluid">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">写文章</h3>
+				</div>
+				<div class="panel-body">
+					<input type="text" placeholder="请输入标题~" class="form-control" style="width: 70%;display: inline-block">
+					<button id="saveBtn" class="btn btn-success">发布文章</button>
+					<div id="layout" style="margin-top:10px ">
+						<div id="test-editormd">
+							<textarea style="display:none;" class="form-control" id="editormd" name="editormd"></textarea>
+							<textarea class="editormd-html-textarea" name="text" id="editormdData"></textarea>
+						</div>
+					</div>
+
+					<div class="option">
+						<div class="form-group">
+							<select id="sort" class="form-control" name="sort">
+								<option value="-1">--请选择分类--</option>
+							</select>
+
+						</div>
+						<div class="form-group">
+							<label>标签:</label>
+							<input type="text" placeholder="文章标签,使用逗号分隔" class="form-control">
+							<a href="#">已有标签+</a>
+						</div>
+						<div class="form-group">
+							<label>发布时间:</label>
+							<input type="text" placeholder="" class="form-control" value="2020-12-29 15:56:46">
+						</div>
+						<div class="form-group">
+							<label>访问密码:</label>
+							<input type="text" placeholder="" class="form-control" value="">
+						</div>
+					</div>
+					<script src="./editormd/examples/js/jquery.min.js"></script>
+					<script src="./editormd/editormd.js"></script>
+					<script type="text/javascript">
+						var testEditor;
+						$(function() {//Editor初始化：
+							testEditor = editormd("test-editormd", {
+								width   : "100%",
+								height  : 540,
+								syncScrolling : "single",
+								// theme : "dark",
+								path    : "./editormd/lib/", //依赖lib文件夹路径
+								//这个配置可以让构造出来的HTML代码直接在第二个隐藏的textarea域中，方便post提交表单
+								// saveHTMLToTextarea : true, // 保存 HTML 到 Textarea，true表示转化为html格式的内容也同样提交到后台
+								toolbarAutoFixed:true,//工具栏自动固定定位的开启与禁用
+								imageUpload : true,
+								imageFormats : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
+								imageUploadURL : "./imageUpload",
+							});
+							$("#saveBtn").click(function () {
+								var data = $("#editormdData").val();
+								//alert(html);
+								$.ajax({
+									data:{'data':data},
+									dataType:'text',
+									type:'post',
+									url:'./saveData',
+									success:function (msg) {
+										alert(msg);
+									}
+								})
+							});
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

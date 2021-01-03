@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xxhoz.dao.ArticlesDao">
+<!--=================分类操作========================================-->
+    <!--增加一个分类-->
+    <insert id="addSort" parameterType="HosSort">
+      insert into
+            hos_sort(sort_id, sort_name, sort_description, parent_sort_id, sort_alias)
+        value (null,#{sortName},#{sortDescription},#{parentSortId},#{sortAlias});
+    </insert>
+    <!--根据id删除一个分类-->
+    <delete id="deleteSortById">
+        delete from hos_sort where sort_id=#{sortID}
+    </delete>
+    <!--更新分类-->
+    <update id="updataSort">
+        update hos_sort set
+            sort_name=#{sortName},
+            sort_description=#{sortDescription},
+            parent_sort_id=#{parentSortId},
+            sort_alias=#{sortAlias}
+        where sort_id=#{sortId};
+    </update>
+    <!--根据文章ID查询分类-->
+    <select id="querySortByArticleId" resultType="HosSort">
+        select
+            t1.sort_id,
+            sort_name,
+            sort_description,
+            parent_sort_id,
+            sort_alias
+        from hos_sort t1,hos_article_sort t2
+        where t1.sort_id=t2.sort_id and t2.article_id=#{articleId}
+    </select>
+    <!--根据ID-->
+    <select id="querySortById" resultType="com.xxhoz.pojo.HosSort">
+        select * from hos_sort where sort_id=#{sortid}
+    </select>
+    <!--查询所有分类-->
+    <select id="queryAllSort" resultType="HosSort">
+        select * from hos_sort;
+    </select>
+<!--=================标签操作========================================-->
+    <!--添加标签-->
+    <insert id="addLable" parameterType="HosLable">
+        insert into
+            hos_lables(lable_id, lable_name, label_description,label_alias)
+            value (null,#{lableName},#{labelDescription},#{labelAlias});
+    </insert>
+    <!--根据ID删除标签-->
+    <delete id="deleteLableById">
+        delete from hos_lables where lable_id=#{lableID}
+    </delete>
+    <!--更新标签-->
+    <update id="updataLable" parameterType="HosLable">
+        update hos_lables set
+            lable_name=#{lableName},
+            lable_description=#{lableDescription},
+            lable_alias=#{lableAlias}
+        where lable_id=#{lableId};
+    </update>
+    <!--查询所有标签-->
+    <select id="queryAllLable" resultType="HosLable">
+        select * from hos_lables;
+    </select>
+    <!--根据ID-->
+    <select id="queryLableById" resultType="HosLable">
+        select * from hos_lables where lable_id =#{lableId}
+    </select>
+    <!--根据标签吗查询lableid-->
+    <select id="queryLableIdByName" resultType="HosLable">
+        select * from hos_lables where lable_name =#{lableName}
+    </select>
+    <!--根据文章ID查询标签-->
+    <select id="queryLableByArticleId" resultType="HosLable">
+        select
+            t1.lable_id,
+            lable_name,
+            label_description,
+            label_alias
+        from hos_lables t1,hos_article_lable t2
+        where t1.lable_id=t2.lable_id and t2.article_id=#{articleId}
+    </select>
+<!--=================文章操作========================================-->
+    <!--添加文章-->
+    <insert id="addArticle" keyColumn="article_id" keyProperty="articleId" parameterType="HosArticles" useGeneratedKeys="true">
+        insert into hos_articles(
+            user_id,
+            article_title,
+            article_content,
+            article_views,
+            article_comment_count,
+            article_date,
+            article_like_count,
+            article_mini_centent,
+            article_password
+        )
+        value (
+            #{userId},
+            #{articleTitle},
+            #{articleContent},
+            #{articleViews},
+            #{articleCommentCount},
+            #{articleDate},
+            #{articleLikeCount},
+            #{articleMiniCentent},
+            #{articlePassword}
+        )
+    </insert>
+    <!--删除文章-->
+    <delete id="deleteArticleById">
+        delete from hos_articles where article_id=#{articleId}
+    </delete>
+    <!--更新文章-->
+    <update id="updateArticle">
+        update hos_articles
+        <set>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="articleTitle != null">
+                article_title = #{articleTitle},
+            </if>
+            <if test="articleContent != null">
+                article_content = #{articleContent},
+            </if>
+            <if test="articleViews != null">
+                article_views = #{articleViews},
+            </if>
+            <if test="articleCommentCount != null">
+                article_comment_count = #{articleCommentCount},
+            </if>
+            <if test="articleDate != null">
+                article_date = #{articleDate},
+            </if>
+            <if test="articleLikeCount != null">
+                article_like_count = #{articleLikeCount},
+            </if>
+            <if test="articleMiniCentent != null">
+                article_mini_centent = #{articleMiniCentent},
+            </if>
+            <if test="articlePassword != null">
+                article_password = #{articlePassword},
+            </if>
+        </set>
+        where article_id = #{articleId}
+    </update>
+    <!--查询全部Article-->
+    <select id="queryAllArticles" resultMap="HosArticlesMap">
+      select
+        article_id,
+        t1.user_id,
+        user_name,
+        article_title,
+        article_content,
+        article_views,
+        article_comment_count,
+        article_date,
+        article_like_count,
+        article_mini_centent,
+        article_password
+      from hos_articles t1,hos_users t2 where t1.user_id=t2.user_id;
+    </select>
+    <resultMap id="HosArticlesMap" type="HosArticles">
+        <result property="articleId" column="article_id"/>
+        <association property="articleSortName" column="article_id" javaType="HosSort" select="querySortByArticleId"/>
+        <collection property="articleLables" javaType="ArrayList" ofType="HosLable" column="article_id" select="queryLableByArticleId"/>
+    </resultMap>
+    <!--根据 标签 ID查询文章-->
+    <select id="queryArticlesByLableId" resultType="HosArticles">
+        select * from
+              hos_articles t1,
+              hos_article_lable t2
+        where t1.article_id=t2.article_id and t2.lable_id=#{sortId};
+    </select>
+    <!--根据 分类 ID查询文章-->
+    <select id="queryArticlesBySortId" resultType="HosArticles">
+        select * from
+              hos_articles t1,
+              hos_article_sort t2
+        where t1.article_id=t2.article_id and t2.sort_id=#{sortId};
+    </select>
+    <!--标题搜索文章-->
+    <select id="searchArticlesByTitle" resultMap="HosArticlesMap">
+        select
+            article_id,
+            t1.user_id,
+            user_name,
+            article_title,
+            article_content,
+            article_views,
+            article_comment_count,
+            article_date,
+            article_like_count,
+            article_mini_centent,
+            article_password
+         from hos_articles t1,hos_users t2 where t1.user_id=t2.user_id
+         and  article_title like CONCAT('%',#{articleTitle},'%')
+    </select>
+    <!--=================评论操作========================================-->
+    <select id="queryCommentsByArticleId" resultType="HosComments">
+        SELECT * FROM `hos_comments` where article_id=#{articleId}
+    </select>
+
+    <insert id="addComment" parameterType="HosComments">
+        insert into hos_comments
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="commentUserName != null">
+                comment_user_name,
+            </if>
+            <if test="commentEmail != null">
+                comment_email,
+            </if>
+            <if test="commentContent != null">
+                comment_content,
+            </if>
+            <if test="commentTime != null">
+                comment_time,
+            </if>
+            <if test="commentLikeCount != null">
+                comment_like_count,
+            </if>
+            <if test="parentCommentId != null">
+                parent_comment_id,
+            </if>
+            <if test="articleId != null">
+                article_id,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="commentUserName != null">
+                #{commentUserName,jdbcType=VARCHAR},
+            </if>
+            <if test="commentEmail != null">
+                #{commentEmail,jdbcType=VARCHAR},
+            </if>
+            <if test="commentContent != null">
+                #{commentContent,jdbcType=VARCHAR},
+            </if>
+            <if test="commentTime != null">
+                #{commentTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="commentLikeCount != null">
+                #{commentLikeCount,jdbcType=BIGINT},
+            </if>
+            <if test="parentCommentId != null">
+                #{parentCommentId,jdbcType=BIGINT},
+            </if>
+            <if test="articleId != null">
+                #{articleId,jdbcType=BIGINT},
+            </if>
+        </trim>
+    </insert>
+    <delete id="deleteComment">
+        delete from hos_comments where comment_id=#{commentId}
+    </delete>
+
+</mapper>
