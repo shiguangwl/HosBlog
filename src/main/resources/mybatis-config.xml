@@ -12,6 +12,6 @@
         <package name="com.xxhoz.pojo"/>
     </typeAliases>
     <mappers>
-        <mapper resource="com/xxhoz/dao/ArticlesDao.xml"/>
+<!--        <mapper resource="com/xxhoz/dao/ArticlesDao.xml"/>-->
     </mappers>
 </configuration>

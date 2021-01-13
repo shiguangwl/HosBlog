@@ -3,6 +3,7 @@ import com.xxhoz.Utils.ResJsonUtils;
 import com.xxhoz.dao.*;
 import com.xxhoz.pojo.*;
 import com.xxhoz.service.ArticlesService;
+import com.xxhoz.service.HosUsersService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,11 +32,18 @@ public class TestClass {
     @Autowired
     ArticlesService articlesService;
 
+
+    @Autowired
+    HosUsersService hosUsersService;
     @Test
     public void T1() throws Exception {
+        List<HosArticles> hosArticles = articlesService.queryAllArticlesByID(1L);
+        System.out.println(hosArticles);
+        //HosUser admin = hosUsersService.queryUser(new HosUser(null, "TimeHo", "123436", null, null, null, null));
+        //System.out.println(admin);
 
-        HosComments hosComments = new HosComments(null, "shiguang", "25133@qq.com", "leir", new Timestamp(System.currentTimeMillis()), 0, 0, 1);
-        int i = articlesService.addComment(hosComments);
+        //HosComments hosComments = new HosComments(null, "shiguang", "25133@qq.com", "leir", new Timestamp(System.currentTimeMillis()), 0, 0, 1);
+        //int i = articlesService.addComment(hosComments);
 
         //System.out.println(articlesService.queryCommentsByArticleId(1));
         //List<HosArticles> title = articlesService.searchArticlesByTitle("标题");

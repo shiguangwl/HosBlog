@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!-- Editor css... -->
+    <link rel="stylesheet" href="./editormd/css/editormd.css" />
+    <link rel="stylesheet" href="./editormd/css/editormd.preview.min.css" />
+
+    <!-- Editor js -->
+    <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./editormd/editormd.min.js"></script>
+    <script src="./editormd/lib/marked.min.js"></script>
+    <script src="./editormd/lib/prettify.min.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         /*(1)清除默认样式*/
         html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ margin:0; padding:0; }
@@ -110,20 +121,26 @@
         /*}*/
         .sidebar{
             width: 300px;
-            height: 600px;
             background-color: #eff1f4;
             float: left;
             margin-left: 20px;
             margin-top: 10px;
             border: 4px solid #c1cfdc;
             border-radius: 5px;
+            padding-bottom: 30px;
         }
         .sidebar h3{
             padding-left: 5px;
-            display: inline-block;
-            width: 100%;
+            display: block;
             height: 30px;
             background-color: #666;
+        }
+        .sidebar .listoffset{
+            margin-left: 15px;
+            display: none;
+        }
+        .filelist{
+
         }
         .sidebar h3 span{
             color: #9d9d9d;
@@ -140,24 +157,34 @@
             margin-top: 10px;
             margin-left: 10px;
             width: 1150px;
-            height: 2000px;
             float: right;
-            background-color: #eff1f4;
             border: 4px solid #c1cfdc;
             border-radius: 5px;
             margin-right: 10px;
         }
-        .main h3{
-            display: inline-block;
-            width: 100%;
+        .main>h3{
+            display: block;
             height: 30px;
-            background-color: #666;
             padding-top: 5px;
             font-size: 14px;
             padding-left: 5px;
+            background-color: #666;
         }
         .main h3 a{
             color: white;
+        }
+        .main .content{
+            max-width: 924px !important;
+            /*margin-left: auto !important;*/
+            margin-right: auto !important;
+        }
+        .main .font{
+            width: 100%;
+            height: 30px;
+            background-color: #00d95a;
+        }
+        li{
+            overflow: hidden;
         }
     </style>
 </head>
@@ -190,22 +217,48 @@
     <div class="mainlist">
         <ul>
             <li>
-                <a href="#">大数据</a>
-                <ul>
+                <a href="#" class="folder"><i class="fa fa-folder-o"></i>大数据</a>
+                <ul class="listoffset">
                     <li>
-                        <a href="#">大数据11</a>
+                        <a href="#"><i class="fa fa-file-text-o"></i>大数据11</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="#">Java</a>
-                <ul>
+                <a href="#"  class="folder"><i class="fa fa-folder-o"></i>Java</a>
+                <ul class="listoffset">
                     <li>
-                        <a href="#">Java11</a>
+                        <a href="#"><i class="fa fa-file-text-o"></i>Java11</a>
                     </li>
                 </ul>
             </li>
-
+            <li>
+                <a href="#"  class="folder"><i class="fa fa-folder-o"></i>程序人生</a>
+                <ul class="listoffset">
+                    <li>
+                        <a href="#" class="folder"><i class="fa fa-folder-o"></i>android</a>
+                        <ul class="listoffset filelist">
+                            <li>
+                                <a href="#"><i class="fa fa-file-text-o"></i>安卓</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-file-text-o"></i>Python</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="folder"><i class="fa fa-folder-o"></i>Python</a>
+                        <ul class="listoffset filelist">
+                            <li>
+                                <a href="#"><i class="fa fa-file-text-o"></i>web</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-file-text-o"></i>flask</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </aside>
@@ -217,71 +270,37 @@
         <a href="#">Hadoop</a>
     </h3>
     <div class="articleTitle">
-        <h1>我是文章标题</h1>
+        <h1 style="font-size: 26px;display: block;height: 60px;margin: 10px;color: #565a5f;">我是文章标题</h1>
     </div>
-    <div class="content">
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
-        我是内容<br>
+    <div class="content editormd-preview-theme" id="content">
+<!--        内容容器-->
     </div>
     <div class="font">
         我是底部
     </div>
 </div>
+<script>
+    $.ajax({
+        dataType:'text',
+        type:'post',
+        url:'./data.md',
+        success:function (msg) {
+            document.querySelector("#content").innerHTML = '<textarea style="display:none;" >'+msg+'</textarea>'
+            editormd.markdownToHTML("content",{emoji:true});
+        }
+    })
+
+    $(".folder").on("click",function () {
+        $(this).children(":first").removeClass("fa-folder-o")
+        $(this).children(":first").removeClass("fa-folder-open-o")
+        if($(this).next().css("display")!='none'){
+            $(this).children(":first").addClass("fa-folder-o")
+        }else {
+            $(this).children(":first").addClass("fa-folder-open-o")
+        }
+        $(this).next().slideToggle('fast')
+        return false
+    })
+</script>
 </body>
 </html>

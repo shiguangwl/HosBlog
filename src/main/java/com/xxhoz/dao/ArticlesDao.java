@@ -41,7 +41,7 @@ public interface ArticlesDao {
     /*修改文章*/
     int updateArticle(HosArticles hosArticle);
     // 查询全部文章
-    List<HosArticles> queryAllArticles();
+    List<HosArticles> queryAllArticles(@Param("articleId") Long articleId);
     // 根据标签ID查询文章
     List<HosArticles> queryArticlesByLableId(int lableId);
     // 根据分类ID查询文章

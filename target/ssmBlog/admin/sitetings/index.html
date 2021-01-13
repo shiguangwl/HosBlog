@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 实例 - 响应式的导航栏</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../editormd/css/editormd.css" />
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+        <!--动态加载-->
+    </nav>
+    <script>
+        $.ajax({
+            url:'../nav.html',
+            type:'get',
+            success:function(res){
+                $('.navbar').html($(res));
+            }
+        });
+    </script>
+</header>
+<section>
+    <div id="section" class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <ul class="nav nav-tabs" id="otherInfoTab">
+                    <li class="active">
+                        <a href="#sitesettings" class="option">网站设置</a>
+                    </li>
+                    <li>
+                        <a href="#usersettings" class="option">用户设置</a>
+                    </li>
+                </ul>
+                <div class="tab-content" style="padding: 20px">
+                    <div class="tab-pane active" id="sitesettings">
+                        <form>
+                            <div class="form-group">
+                                <label>站点标题</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入站点标题" id="site_title">
+                            </div>
+                            <div class="form-group">
+                                <label>站点关键词</label>
+                                <textarea class="form-control" style="width: 390px;height: 120px"
+                                          placeholder="请输入站点标题" id="site_subtitle"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>站点描述</label>
+                                <textarea class="form-control" style="width: 390px;height: 120px"
+                                          placeholder="请输入站点标题" id="site_description"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>站点标题</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="site_ioc">
+                            </div>
+                            <div class="form-group">
+                                <label>站点Logo</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="site_logo">
+                            </div>
+                            <div class="form-group">
+                                <label>站点描述</label>
+                                <textarea class="form-control" style="width: 390px;height: 120px"
+                                          placeholder="请输入站点关键词" id="site_keywords"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>站点URL</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="site_url">
+                            </div>
+                            <input type="submit" value="提交修改" class="btn btn-danger">
+                        </form>
+                    </div>
+                    <div class="tab-pane" id="usersettings" style="padding: 20px">
+                        <form>
+                            <div class="form-group">
+                                <label>用户名ID</label>
+                                <input disabled class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_id">
+                            </div>
+                            <div class="form-group">
+                                <label>用户名</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_name">
+                            </div>
+                            <div class="form-group">
+                                <label>用户密码</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_password">
+                            </div>
+                            <div class="form-group">
+                                <label>用户昵称</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_nickname">
+                            </div>
+                            <div class="form-group">
+                                <label>用户邮箱</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_email">
+                            </div>
+                            <div class="form-group">
+                                <label>注册时间</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_registration_time">
+                            </div>
+                            <div class="form-group">
+                                <label>用户头像</label>
+                                <input class="form-control" style="width: 390px"
+                                       placeholder="请输入URL" id="user_profile_photo">
+                            </div>
+                            <input type="submit" value="提交修改" class="btn btn-danger">
+                        </form>
+
+                    </div>
+                </div>
+                <script>
+                    $(function() {
+                        // $('#otherInfoTab a:last').tab('show');//初始化显示哪个tab
+                        $('#otherInfoTab a').click(function(e) {
+                            e.preventDefault();//阻止a链接的跳转行为
+                            $(this).tab('show');//显示当前选中的链接及关联的content
+                        })
+                    })
+
+                    /**
+                     * 自动将form表单封装成json对象
+                     */
+                    $.fn.serializeObject = function() {
+                        var o = {};
+                        var a = this.serializeArray();
+                        $.each(a, function() {
+                            if (o[this.name]) {
+                                if (!o[this.name].push) {
+                                    o[this.name] = [ o[this.name] ];
+                                }
+                                o[this.name].push(this.value || '');
+                            } else {
+                                o[this.name] = this.value || '';
+                            }
+                        });
+                        return o;
+                    };
+
+
+                    //发送表单ajax请求
+                    $(':submit').on('click',function(){
+                        $.ajax({
+                            url:"buy",
+                            type:"POST",
+                            data:JSON.stringify($('form').serializeObject()),
+                            contentType:"application/json",  //缺失会出现URL编码，无法转成json对象
+                            success:function(){
+                                alert("成功");
+                            }
+                        });
+                    });
+
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -9,7 +9,1120 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d68b8874-ea89-4a53-b68b-d75a25a977de" name="默认的" comment="" />
+    <list default="true" id="d68b8874-ea89-4a53-b68b-d75a25a977de" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/Utils/JWTInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/Utils/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/LoginControer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/service/HosUsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/service/impl/HosUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/AdminControer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/AdminControer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/ArticleControer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/ArticleControer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/CommentControer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/SiteSettingControer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/controller/TTT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/dao/ArticlesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/dao/ArticlesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/dao/ArticlesDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/dao/ArticlesDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/pojo/HosUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/pojo/HosUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/service/ArticlesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/service/ArticlesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxhoz/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxhoz/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generate/HosComments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generate/HosCommentsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/Utils/ResJsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/controller/AdminControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/controller/ArticleControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/controller/CommentControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/controller/SiteSettingControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/controller/TTT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/ArticlesDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/ArticlesDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/HosArticleLableDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/HosArticleLableDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/HosArticleSortDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/HosArticleSortDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/SiteSettingsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/SiteSettingsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/UserOptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/dao/UserOptionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosArticleLable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosArticleSortKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosArticles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosLable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosOption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/HosUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/pojo/ResPojo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/service/ArticlesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/service/SiteSettingsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/service/UserOptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/service/impl/SiteSettingsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxhoz/service/impl/UserOptionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/HosComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generate/HosCommentsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator/HosCommentsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/Utils/ResJsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/controller/AdminControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/controller/ArticleControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/controller/CommentControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/controller/SiteSettingControer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/controller/TTT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/ArticlesDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/ArticlesDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/HosArticleLableDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/HosArticleLableDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/HosArticleSortDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/HosArticleSortDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/SiteSettingsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/SiteSettingsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/UserOptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/dao/UserOptionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosArticleLable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosArticleSortKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosArticles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosLable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosOption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/HosUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/pojo/ResPojo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/service/ArticlesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/service/SiteSettingsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/service/UserOptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/service/impl/SiteSettingsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/com/xxhoz/service/impl/UserOptionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/generate/HosComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/generate/HosCommentsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/generator/HosCommentsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/classes/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/lombok-1.16.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/mybatis-3.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/css/editormd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/css/editormd.logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/css/editormd.logo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/css/editormd.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/css/editormd.preview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/css/editormd.preview.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/editormd.amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/editormd.amd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/editormd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/editormd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/@links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/auto-height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/change-mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/code-fold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/custom-keyboard-shortcuts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/custom-toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/define-plugin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/delay-renderer-preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/dynamic-create-editormd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/emoji.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/extends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/external-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/flowchart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/form-get-value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/goto-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/html-preview-markdown-to-html-custom-toc-container.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/html-preview-markdown-to-html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/html-tags-decode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/image-cross-domain-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/image-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/images/editormd-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/js/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/js/sea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/js/seajs-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/js/zepto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/katex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/manually-load-modules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/multi-editormd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/multi-languages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/on-off.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onchange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onfullscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onpreviewing-onpreviewed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onresize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onscroll-onpreviewscroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/onwatch-onunwatch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/page-break.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/php/cross-domain-upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/php/editormd.uploader.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/php/post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/php/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/php/upload_callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/readonly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/resettings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/search-replace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/sequence-diagram.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/set-get-replace-selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/sync-scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/task-lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/themes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/toolbar-auto-fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/use-requirejs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/use-seajs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/examples/use-zepto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/editormd-logo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/editormd-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/editormd-logo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/editormd-logo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/loading@3x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-favicon-16x16.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-favicon-24x24.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-favicon-32x32.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-favicon-48x48.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-favicon-64x64.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-240x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-24x24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-320x320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-64x64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/editormd-logo-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/images/logos/vi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/languages/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/languages/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/comment/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/comment/continuecomment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/dialog/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/dialog/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/display/fullscreen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/display/fullscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/display/panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/display/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/display/rulers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/edit/closebrackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/edit/closetag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/edit/continuelist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/edit/matchbrackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/edit/matchtags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/edit/trailingspace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/brace-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/comment-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/foldcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/foldgutter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/foldgutter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/indent-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/markdown-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/fold/xml-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/css-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/html-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/javascript-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/sql-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/hint/xml-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/coffeescript-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/css-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/javascript-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/json-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/lint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/lint/yaml-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/merge/merge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/merge/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/mode/loadmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/mode/multiplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/mode/multiplex_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/mode/overlay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/mode/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/runmode/colorize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/runmode/runmode-standalone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/runmode/runmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/runmode/runmode.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/scroll/annotatescrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/scroll/scrollpastend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/scroll/simplescrollbars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/scroll/simplescrollbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/search/match-highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/search/matchesonscrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/search/matchesonscrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/search/searchcursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/selection/active-line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/selection/mark-selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/selection/selection-pointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/tern/tern.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/tern/tern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/tern/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addon/wrap/hardwrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/addons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/codemirror.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/codemirror.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/lib/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/lib/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/apl/apl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/apl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/asterisk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/clike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/clike/scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/clojure/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/clojure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/cobol/cobol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/cobol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/coffeescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/commonlisp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/less_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/scss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/scss_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/css/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/cypher/cypher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/cypher/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/d/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/d/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dart/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/diff/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/diff/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/django/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/django/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dockerfile/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dockerfile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dtd/dtd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dtd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dylan/dylan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/dylan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ebnf/ebnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ebnf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ecl/ecl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ecl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/eiffel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/erlang/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/erlang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/forth/forth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/forth/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/fortran/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/fortran/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gas/gas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gfm/gfm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gfm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gfm/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/gherkin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/go/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/go/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/groovy/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/groovy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haml/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haskell/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haskell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haxe/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/haxe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/http/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/http/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/idl/idl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/idl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/jade/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/jade/jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/javascript/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/javascript/typescript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/jinja2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/julia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/julia/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/kotlin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/livescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/livescript/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/lua/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/lua/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/markdown/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/markdown/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/markdown/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/mirc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/mirc/mirc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/mllike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/mllike/mllike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/modelica/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/modelica/modelica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/nginx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/nginx/nginx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ntriples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/octave/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/octave/octave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/pascal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/pascal/pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/pegjs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/perl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/perl/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/php/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/php/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/php/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/pig/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/pig/pig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/properties/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/properties/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/puppet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/puppet/puppet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/python/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/python/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/q/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/q/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/r/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/r/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rpm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rpm/rpm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rst/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rst/rst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ruby/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ruby/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/ruby/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rust/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/rust/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sass/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sass/sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/scheme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/scheme/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/shell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/shell/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/shell/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sieve/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sieve/sieve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/slim/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/slim/slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/slim/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/smalltalk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/smarty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/smarty/smarty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/smartymixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/solr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/solr/solr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/soy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/soy/soy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sparql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sparql/sparql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/spreadsheet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/spreadsheet/spreadsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/sql/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/stex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/stex/stex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/stex/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/stylus/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/stylus/stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tcl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tcl/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/textile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/textile/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/textile/textile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tiki/tiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tiki/tiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/toml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/toml/toml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tornado/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/tornado/tornado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/turtle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/turtle/turtle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/vb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/vb/vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/vbscript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/velocity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/velocity/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/verilog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/verilog/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/verilog/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/xml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/xml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/xml/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/xquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/xquery/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/xquery/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/yaml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/yaml/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/z80/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/mode/z80/z80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/modes.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/3024-day.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/3024-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/ambiance-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/ambiance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/base16-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/base16-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/blackboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/cobalt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/colorforth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/eclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/elegant.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/erlang-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/lesser-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/mbo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/mdn-like.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/midnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/neat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/neo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/pastel-on-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/rubyblue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/solarized.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/the-matrix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/twilight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/vibrant-ink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/xq-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/xq-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/codemirror/theme/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/flowchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/jquery.flowchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/marked.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/prettify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/sequence-diagram.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/lib/underscore.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/code-block-dialog/code-block-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/emoji-dialog/emoji-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/emoji-dialog/emoji.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/goto-line-dialog/goto-line-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/help-dialog/help-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/help-dialog/help.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/html-entities-dialog/html-entities-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/html-entities-dialog/html-entities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/image-dialog/image-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/link-dialog/link-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/plugin-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/reference-link-dialog/reference-link-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/table-dialog/table-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/plugins/test-plugin/test-plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.codemirror.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.dialog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.logo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.preview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.preview.themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.tab.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/editormd.themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/github-markdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/lib/prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/lib/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/scss/prettify.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/src/editormd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/bootstrap-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/codemirror-searchbox-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/codemirror-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/js/searchbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/katex-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/marked-@at-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/marked-emoji-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/marked-heading-link-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/marked-todo-list-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/qunit/qunit-1.16.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/editormd/tests/qunit/qunit-1.16.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/前端简洁百科.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmBlog/文章.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/css/editormd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/css/editormd.logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/css/editormd.logo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/css/editormd.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/css/editormd.preview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/css/editormd.preview.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/editormd.amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/editormd.amd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/editormd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/editormd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/@links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/auto-height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/change-mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/code-fold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/custom-keyboard-shortcuts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/custom-toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/define-plugin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/delay-renderer-preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/dynamic-create-editormd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/emoji.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/extends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/external-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/flowchart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/form-get-value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/goto-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/html-preview-markdown-to-html-custom-toc-container.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/html-preview-markdown-to-html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/html-tags-decode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/image-cross-domain-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/image-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/images/editormd-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/js/require.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/js/sea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/js/seajs-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/js/zepto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/katex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/manually-load-modules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/multi-editormd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/multi-languages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/on-off.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onchange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onfullscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onpreviewing-onpreviewed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onresize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onscroll-onpreviewscroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/onwatch-onunwatch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/page-break.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/php/cross-domain-upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/php/editormd.uploader.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/php/post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/php/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/php/upload_callback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/readonly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/resettings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/search-replace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/sequence-diagram.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/set-get-replace-selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/sync-scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/task-lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/themes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/toolbar-auto-fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/use-requirejs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/use-seajs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/examples/use-zepto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/editormd-logo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/editormd-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/editormd-logo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/editormd-logo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/loading@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/loading@3x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-favicon-16x16.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-favicon-24x24.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-favicon-32x32.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-favicon-48x48.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-favicon-64x64.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-240x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-24x24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-320x320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-64x64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/editormd-logo-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/images/logos/vi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/languages/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/languages/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/comment/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/comment/continuecomment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/dialog/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/dialog/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/display/fullscreen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/display/fullscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/display/panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/display/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/display/rulers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/edit/closebrackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/edit/closetag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/edit/continuelist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/edit/matchbrackets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/edit/matchtags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/edit/trailingspace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/brace-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/comment-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/foldcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/foldgutter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/foldgutter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/indent-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/markdown-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/fold/xml-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/css-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/html-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/javascript-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/sql-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/hint/xml-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/coffeescript-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/css-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/javascript-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/json-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/lint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/lint/yaml-lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/merge/merge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/merge/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/mode/loadmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/mode/multiplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/mode/multiplex_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/mode/overlay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/mode/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/runmode/colorize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/runmode/runmode-standalone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/runmode/runmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/runmode/runmode.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/scroll/annotatescrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/scroll/scrollpastend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/scroll/simplescrollbars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/scroll/simplescrollbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/search/match-highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/search/matchesonscrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/search/matchesonscrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/search/searchcursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/selection/active-line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/selection/mark-selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/selection/selection-pointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/tern/tern.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/tern/tern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/tern/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addon/wrap/hardwrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/addons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/codemirror.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/codemirror.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/lib/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/lib/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/apl/apl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/apl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/asterisk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/clike/clike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/clike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/clike/scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/clojure/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/clojure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/cobol/cobol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/cobol/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/coffeescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/commonlisp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/less_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/scss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/scss_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/css/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/cypher/cypher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/cypher/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/d/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/d/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dart/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dart/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/diff/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/diff/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/django/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/django/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dockerfile/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dockerfile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dtd/dtd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dtd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dylan/dylan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/dylan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ebnf/ebnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ebnf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ecl/ecl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ecl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/eiffel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/erlang/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/erlang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/forth/forth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/forth/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/fortran/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/fortran/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gas/gas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gfm/gfm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gfm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gfm/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/gherkin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/go/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/go/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/groovy/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/groovy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haml/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haskell/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haskell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haxe/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/haxe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/http/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/http/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/idl/idl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/idl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/jade/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/jade/jade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/javascript/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/javascript/typescript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/jinja2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/julia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/julia/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/kotlin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/livescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/livescript/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/lua/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/lua/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/markdown/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/markdown/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/markdown/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/mirc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/mirc/mirc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/mllike/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/mllike/mllike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/modelica/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/modelica/modelica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/nginx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/nginx/nginx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ntriples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/octave/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/octave/octave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/pascal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/pascal/pascal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/pegjs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/perl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/perl/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/php/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/php/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/php/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/pig/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/pig/pig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/properties/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/properties/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/puppet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/puppet/puppet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/python/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/python/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/q/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/q/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/r/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/r/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rpm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rpm/rpm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rst/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rst/rst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ruby/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ruby/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/ruby/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rust/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/rust/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sass/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sass/sass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/scheme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/scheme/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/shell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/shell/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/shell/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sieve/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sieve/sieve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/slim/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/slim/slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/slim/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/smalltalk/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/smarty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/smarty/smarty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/smartymixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/solr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/solr/solr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/soy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/soy/soy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sparql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sparql/sparql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/spreadsheet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/spreadsheet/spreadsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sql/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/sql/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/stex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/stex/stex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/stex/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/stylus/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/stylus/stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tcl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tcl/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/textile/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/textile/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/textile/textile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tiki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tiki/tiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tiki/tiki.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/toml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/toml/toml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tornado/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/tornado/tornado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/turtle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/turtle/turtle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/vb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/vb/vb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/vbscript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/velocity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/velocity/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/verilog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/verilog/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/verilog/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/xml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/xml/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/xml/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/xquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/xquery/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/xquery/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/yaml/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/yaml/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/z80/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/mode/z80/z80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/modes.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/3024-day.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/3024-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/ambiance-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/ambiance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/base16-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/base16-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/blackboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/cobalt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/colorforth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/eclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/elegant.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/erlang-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/lesser-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/mbo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/mdn-like.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/midnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/neat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/neo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/pastel-on-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/rubyblue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/solarized.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/the-matrix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/twilight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/vibrant-ink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/xq-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/xq-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/codemirror/theme/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/flowchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/jquery.flowchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/marked.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/prettify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/sequence-diagram.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/lib/underscore.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/code-block-dialog/code-block-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/emoji-dialog/emoji-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/emoji-dialog/emoji.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/goto-line-dialog/goto-line-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/help-dialog/help-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/help-dialog/help.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/html-entities-dialog/html-entities-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/html-entities-dialog/html-entities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/image-dialog/image-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/link-dialog/link-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/plugin-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/reference-link-dialog/reference-link-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/table-dialog/table-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/plugins/test-plugin/test-plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.codemirror.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.dialog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.logo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.preview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.preview.themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.tab.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/editormd.themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/github-markdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/lib/prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/lib/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/scss/prettify.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/src/editormd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/bootstrap-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/codemirror-searchbox-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/codemirror-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/js/searchbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/katex-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/marked-@at-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/marked-emoji-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/marked-heading-link-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/marked-todo-list-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/qunit/qunit-1.16.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editormd/tests/qunit/qunit-1.16.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/前端简洁百科.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/前端简洁百科.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/文章.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +1140,16 @@
       <list>
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
-  <component name="JupyterTrust" id="7c27956e-2cc1-4578-9745-5092c7d53701" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="7f016ee2-54df-449f-97e8-3864625ca23e" />
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -63,6 +1180,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ldVHXjntVlFPeIhwN8toQoiFpb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,11 +1195,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facet" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31264368" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -92,35 +1210,26 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.xxhoz.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Learn\CleanFolder\ssmBlog\src\main\java\com\xxhoz\service" />
-      <recent name="D:\Learn\CleanFolder\ssmBlog\web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Learn\CleanFolder\ssmBlog\target\ssmBlog\WEB-INF" />
+      <recent name="D:\Learn\CleanFolder\ssmBlog\web\admin\writearticle" />
+      <recent name="D:\Learn\CleanFolder\ssmBlog\web\admin\index" />
       <recent name="D:\Learn\CleanFolder\ssmBlog\src\main\java\com\xxhoz\dao" />
+      <recent name="D:\Learn\CleanFolder\ssmBlog\target\ssmBlog\WEB-INF" />
       <recent name="D:\Learn\CleanFolder\ssmBlog\web\WEB-INF" />
-      <recent name="D:\Learn\CleanFolder\ssmBlog\web\editormd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxhoz.controller" />
+      <recent name="com.xxhoz.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Learn\CleanFolder\ssmBlog\web" />
+      <recent name="D:\Learn\CleanFolder\ssmBlog\src\main\java\com\xxhoz\service" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.29">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="ssmBlog" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +1270,11 @@
     </configuration>
     <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="ssmBlog:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/ssmBlog_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -283,7 +1392,16 @@
       <workItem from="1609567664479" duration="12109000" />
       <workItem from="1609590636846" duration="599000" />
       <workItem from="1609643952702" duration="5508000" />
-      <workItem from="1609655529198" duration="12160000" />
+      <workItem from="1609655529198" duration="12638000" />
+      <workItem from="1609679506818" duration="160000" />
+      <workItem from="1609727756584" duration="1230000" />
+      <workItem from="1609729461231" duration="7362000" />
+      <workItem from="1609743503231" duration="3825000" />
+      <workItem from="1609747348336" duration="6430000" />
+      <workItem from="1609753898647" duration="296000" />
+      <workItem from="1609812730162" duration="8088000" />
+      <workItem from="1609914511351" duration="10176000" />
+      <workItem from="1610092686201" duration="1057000" />
     </task>
     <servers />
   </component>
@@ -315,18 +1433,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="575" y="198" key="#Web_Browsers/0.0.1536.824@0.0.1536.824" timestamp="1609136223460" />
-    <state x="226" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609659982011">
+    <state x="226" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609921537242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="226" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609659982011" />
-    <state x="596" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609386558366">
+    <state x="226" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609921537242" />
+    <state x="596" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609751196991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="596" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609386558366" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1609572370163">
+    <state x="596" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609751196991" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1609753536849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609572370163" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609753536849" />
     <state x="428" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607929436150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -335,14 +1453,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="512" y="300" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1609405594425" />
-    <state x="576" y="300" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1609656316791">
+    <state x="576" y="300" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1609918882420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="300" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1609656316791" />
-    <state x="455" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609664770988">
+    <state x="576" y="300" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1609918882420" />
+    <state x="539" y="279" width="457" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609747656976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="455" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1609664770988" />
+    <state x="539" y="279" width="457" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1609747656976" />
+    <state x="455" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609749066817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="455" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1609749066817" />
     <state x="520" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1609136790382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -355,62 +1477,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="260" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1609402204955" />
-    <state x="235" y="174" key="FileChooserDialogImpl" timestamp="1609656315926">
+    <state x="235" y="174" key="FileChooserDialogImpl" timestamp="1609918879252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="235" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609656315926" />
-    <state width="1280" height="475" key="GridCell.Tab.0.bottom" timestamp="1609667948143">
+    <state x="235" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609918879252" />
+    <state width="1280" height="290" key="GridCell.Tab.0.bottom" timestamp="1610093745447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609667948143" />
-    <state width="1280" height="475" key="GridCell.Tab.0.center" timestamp="1609667948143">
+    <state width="1280" height="290" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610093745447" />
+    <state width="1280" height="290" key="GridCell.Tab.0.center" timestamp="1610093745445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609667948143" />
-    <state width="1280" height="475" key="GridCell.Tab.0.left" timestamp="1609667948142">
+    <state width="1280" height="290" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610093745445" />
+    <state width="1280" height="290" key="GridCell.Tab.0.left" timestamp="1610093745445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609667948142" />
-    <state width="1280" height="475" key="GridCell.Tab.0.right" timestamp="1609667948143">
+    <state width="1280" height="290" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610093745445" />
+    <state width="1280" height="290" key="GridCell.Tab.0.right" timestamp="1610093745446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609667948143" />
-    <state width="1280" height="475" key="GridCell.Tab.1.bottom" timestamp="1609667948144">
+    <state width="1280" height="290" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610093745446" />
+    <state width="1280" height="290" key="GridCell.Tab.1.bottom" timestamp="1610093745449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609667948144" />
-    <state width="1280" height="475" key="GridCell.Tab.1.center" timestamp="1609667948144">
+    <state width="1280" height="290" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610093745449" />
+    <state width="1280" height="290" key="GridCell.Tab.1.center" timestamp="1610093745448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609667948144" />
-    <state width="1280" height="475" key="GridCell.Tab.1.left" timestamp="1609667948144">
+    <state width="1280" height="290" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610093745448" />
+    <state width="1280" height="290" key="GridCell.Tab.1.left" timestamp="1610093745447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609667948144" />
-    <state width="1280" height="475" key="GridCell.Tab.1.right" timestamp="1609667948144">
+    <state width="1280" height="290" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610093745447" />
+    <state width="1280" height="290" key="GridCell.Tab.1.right" timestamp="1610093745448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609667948144" />
-    <state width="1280" height="475" key="GridCell.Tab.2.bottom" timestamp="1609667948144">
+    <state width="1280" height="290" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610093745448" />
+    <state width="1280" height="290" key="GridCell.Tab.2.bottom" timestamp="1610093745450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609667948144" />
-    <state width="1280" height="475" key="GridCell.Tab.2.center" timestamp="1609667948143">
+    <state width="1280" height="290" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610093745450" />
+    <state width="1280" height="290" key="GridCell.Tab.2.center" timestamp="1610093745449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1609667948143" />
-    <state width="1280" height="475" key="GridCell.Tab.2.left" timestamp="1609667948143">
+    <state width="1280" height="290" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1610093745449" />
+    <state width="1280" height="290" key="GridCell.Tab.2.left" timestamp="1610093745449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1609667948143" />
-    <state width="1280" height="475" key="GridCell.Tab.2.right" timestamp="1609667948144">
+    <state width="1280" height="290" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1610093745449" />
+    <state width="1280" height="290" key="GridCell.Tab.2.right" timestamp="1610093745450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="475" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1609667948144" />
-    <state x="172" y="38" width="1145" height="711" key="SettingsEditor" timestamp="1609656489839">
+    <state width="1280" height="290" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1610093745450" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1609747240990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="172" y="38" width="1145" height="711" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609656489839" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1609747240990" />
+    <state x="172" y="38" width="1145" height="711" key="SettingsEditor" timestamp="1609918883792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="172" y="38" width="1145" height="711" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609918883792" />
     <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1609298919424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -439,10 +1565,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="322" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609655731425" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1609384208059">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1609925084728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609384208059" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609925084728" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609310841735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

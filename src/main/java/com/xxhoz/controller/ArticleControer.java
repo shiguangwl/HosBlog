@@ -3,7 +3,6 @@ package com.xxhoz.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mysql.jdbc.StringUtils;
 import com.xxhoz.Utils.ResJsonUtils;
-import com.xxhoz.dao.*;
 import com.xxhoz.pojo.*;
 import com.xxhoz.service.ArticlesService;
 import com.xxhoz.service.impl.SiteSettingsServiceImpl;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.Timestamp;
-import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -28,11 +26,21 @@ public class ArticleControer {
     SiteSettingsServiceImpl siteSettingsServiceImpl;
     /*查询文章*/
     @RequestMapping("/queryArticle")
-    public String GetArticle() throws JsonProcessingException {
-        List<HosArticles> hosArticles = articlesService.queryAllArticles();
+    public String GetArticle(Long articleId) throws JsonProcessingException {
+        List<HosArticles> hosArticles = articlesService.queryAllArticlesByID(articleId);
         return ResJsonUtils.Tojson(hosArticles);
     }
 
+
+    @RequestMapping("*")
+     public String page404(){
+        return "404";
+     }
+    @ExceptionHandler
+    public String exceptionHandler(Exception e) throws JsonProcessingException {
+        e.printStackTrace();
+        return ResJsonUtils.Tojson(4,"Top Error",null);
+    }
     /*搜索文章*/
     @RequestMapping("/searchArticle")
     public String GetSearchArticle(HttpServletRequest httpServletRequest) throws JsonProcessingException {
@@ -76,12 +84,6 @@ public class ArticleControer {
         return ResJsonUtils.Tojson(hosComments);
     }
 
-    @ExceptionHandler
-    public String exceptionHandler(Exception e) throws JsonProcessingException {
-        e.printStackTrace();
-        return ResJsonUtils.Tojson(4,"顶层异常",null);
-    }
-
     /*添加评论*/
     @RequestMapping(value = "/addComment",method = RequestMethod.POST)
     public String addComment(@RequestBody HosComments hosComment) throws JsonProcessingException {
@@ -102,4 +104,6 @@ public class ArticleControer {
         List<HosOption> hosOptions = siteSettingsServiceImpl.querySettings();
         return ResJsonUtils.Tojson(hosOptions);
     }
+
+
 }

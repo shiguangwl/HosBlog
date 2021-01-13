@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class HosUser {
 
-  private long userId;
+  private Long userId;
   private String userName;
   private String userPassword;
   private String userNickname;

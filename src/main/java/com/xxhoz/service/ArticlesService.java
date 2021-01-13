@@ -1,11 +1,16 @@
 package com.xxhoz.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.xxhoz.pojo.HosArticles;
 import com.xxhoz.pojo.HosComments;
 import com.xxhoz.pojo.HosLable;
 import com.xxhoz.pojo.HosSort;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 import java.util.List;
 
 public interface ArticlesService {
@@ -45,8 +50,7 @@ public interface ArticlesService {
     /*修改文章*/
     int updateArticle(HosArticles hosArticle);
     // 查询全部文章
-    List<HosArticles> queryAllArticles();
-
+    List<HosArticles> queryAllArticlesByID(Long articleId);
     // 根据标签ID查询文章
     List<HosArticles> queryArticlesByLableId(int lableId);
     // 根据分类ID查询文章
@@ -61,6 +65,5 @@ public interface ArticlesService {
     /*删除评论*/
     int deleteComment(int commentId);
 
-
-
+    String uploadFile(CommonsMultipartFile file, HttpServletRequest request) throws IOException;
 }
