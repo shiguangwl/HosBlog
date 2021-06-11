@@ -1,0 +1,13 @@
+/*标签*/
+.biaoqian{
+
+}
+.biaoqian .tags{
+    margin-top: 30px;
+    text-align: center;
+}
+.biaoqian .tags a{
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 0px 7px;
+}

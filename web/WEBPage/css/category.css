@@ -1,0 +1,34 @@
+
+
+/*分类*/
+.category .card-category-list{
+    margin-left: 4em;
+    font-size: 1.4em;
+}
+.recent-posts .pagination{
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+.recent-posts .pagination a{
+    display: inline-block;
+    width: 1.6em;
+}
+.page{
+    background-color: #00c4ff;
+    color: white !important;
+}
+
+.recent-post-info h3 a{
+    font-size: 2em;
+}
+.recent-post-info .article-meta-wrap{
+    margin: 0.6rem auto;
+}
+
+.card-info-data .car-info_data_item{
+    width: 30%;
+    display: inline-block;
+}
+
+
